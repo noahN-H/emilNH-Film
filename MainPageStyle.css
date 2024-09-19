@@ -1,0 +1,53 @@
+.navBar {
+    background-color:antiquewhite;
+    overflow: hidden;
+}
+
+
+/* Style of the Nav Bar */
+.navBar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+
+.navBar a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.navBar a:active {
+    background-color: azure;
+    color: whitesmoke;
+}
+
+.navBarCenter a {
+    float: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+    .navBar a {
+        float: none;
+        display: block;
+    }
+    .navBarCenter a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+
+
+
+body {
+    background-color: black;
+}
