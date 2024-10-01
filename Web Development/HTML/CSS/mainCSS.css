@@ -1,0 +1,135 @@
+.navBarStyle {
+    position: relative;
+    overflow: hidden;
+    background-color:bisque;
+}
+
+
+/* Style of the Nav Bar */
+.navBarStyle a {
+    float: right;
+    color:#404040;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+    width: 5%
+}
+
+.navBarStyle a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.navBarStyle a:active {
+    background-color:bisque;
+    color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navBarStyle a, .navBarHome {
+        float: none;
+        display: block;
+    }
+    .navBarHome a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .navBarPProjects a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .navBarGProjects a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    
+
+    .navBarContact a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    
+}
+
+
+.footer{
+    position: relative;
+    padding: 8px 7px;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+.rightAlign{
+    display: inline-block;
+    vertical-align: top;
+}
+
+input[type = text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type = submit] {
+    background-color: #404040;
+    color: #F2EBE3;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+input[type = submit]:hover {
+    background-color:#606060;
+}
+
+
+body {
+    background-color:#404041;;
+}
+
+p {
+    color:#F2EBE3
+}
+
+
+@font-face {
+    font-family:typeWriterFont;
+    src:url('typewriterfont1.ttf');
+}
+ 
+h1 {
+    font-family: typeWriterFont;
+    color:#F2EBE3;
+}
+
+div {
+    font-family: typeWriterFont;
+    color:#F2EBE3;
+}
+
+
+
+

@@ -1,0 +1,87 @@
+.navBarStyle {
+    position: relative;
+    overflow: hidden;
+    background-color:bisque;
+}
+
+
+/* Style of the Nav Bar */
+
+
+.navBarStyle a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+    width: 30.8%
+}
+
+.navBarStyle a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.navBarStyle a:active {
+    background-color:bisque;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .navBarStyle a, .navBarHome {
+        float: none;
+        display: block;
+    }
+    .navBarHome a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .navBarPProjects a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .navBarGProjects a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    
+
+    .navBarContact a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    
+}
+
+
+
+body {
+    background-color: #404040;
+}
+
+@font-face {
+    font-family:typeWriterFont;
+    src:url('typewriterfont1.ttf');
+}
+ 
+h1 {
+    font-family: typeWriterFont ;
+}
+
+div {
+    font-family: typeWriterFont;
+}
+
